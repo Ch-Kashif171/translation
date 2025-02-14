@@ -88,8 +88,8 @@ php artisan db:seed --class=TranslationJsonSeeder
     ```json
       {
         "locale": "en",
-        "key": "platform",
-        "value": "iPhone",
+        "key": "platform.opensource",
+        "value": "Andriod",
         "tags": {
           "web": "web",
           "mobile": "mobile",
@@ -109,6 +109,11 @@ php artisan db:seed --class=TranslationJsonSeeder
 ### Here is the apis documentation for postman:
 
 You can find the API documentation [here](https://documenter.getpostman.com/view/1614227/2sAYXEDHQG).
+
+## Performance Note
+
+All API endpoints respond in under 200ms.
+
 
 ## Running Unit Tests
 
